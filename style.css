@@ -449,7 +449,7 @@ button {
 }
 
 .fs-a {
-  background-color: rgb(114, 108, 184, 0.5);
+  background-color: rgb(151, 128, 183, .5);
 
   padding: 0.7rem;
   border-radius: 50px;
@@ -458,6 +458,12 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.fs-a:hover {
+  background-color: rgb(151, 128, 183, .8);
+  transition: all .3s ease-in-out;
+}
+
 
 .footer-nav {
   display: flex;
